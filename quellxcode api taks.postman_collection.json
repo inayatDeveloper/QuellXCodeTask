@@ -1,0 +1,253 @@
+{
+	"id": "9b083d90-def6-0be2-3d36-5cbe5de7fa4f",
+	"name": "quellxcode api taks",
+	"description": "",
+	"order": [
+		"9250de71-ba41-5bbd-66ed-9fa15447b124",
+		"f3166de3-21de-569f-eae9-591c376e8c9e",
+		"262ac90b-2d8b-d882-f502-3b2b631a36f3",
+		"e10a3ffa-cede-1141-1ac5-a27b5f4cdb11",
+		"b5d258fc-5998-5913-4730-7f774251f8e5"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1576855947246,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "262ac90b-2d8b-d882-f502-3b2b631a36f3",
+			"headers": "x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZGZjZTllMWQ2NjU1NDFhNzgxMDIwMDQiLCJpYXQiOjE1NzY4NTYzNDQsImV4cCI6MTU3Njk0Mjc0NH0.sbjyAhHUmSUhdhgkYf67SiHD1604_M3p6O5spef9j_Q\n",
+			"headerData": [
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZGZjZTllMWQ2NjU1NDFhNzgxMDIwMDQiLCJpYXQiOjE1NzY4NTYzNDQsImV4cCI6MTU3Njk0Mjc0NH0.sbjyAhHUmSUhdhgkYf67SiHD1604_M3p6O5spef9j_Q",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "9b083d90-def6-0be2-3d36-5cbe5de7fa4f",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:3000/users",
+			"description": "get all users.",
+			"descriptionFormat": "html",
+			"time": 1576856801610,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9250de71-ba41-5bbd-66ed-9fa15447b124",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n// : \n",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": " ",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "localhost:3000/signup",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9b083d90-def6-0be2-3d36-5cbe5de7fa4f",
+			"data": [
+				{
+					"key": "email",
+					"value": "inayatDeveloper@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "role",
+					"value": "admin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "localhost:3000/signup",
+			"description": "signup api",
+			"descriptionFormat": "html",
+			"time": 1576856020418,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b5d258fc-5998-5913-4730-7f774251f8e5",
+			"headers": "x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZGZjZTllMWQ2NjU1NDFhNzgxMDIwMDQiLCJpYXQiOjE1NzY4NTcxNzcsImV4cCI6MTU3Njk0MzU3N30.n3Y91z16zrCI7AgTmPSE-CgmwAuRpEGHoACW2qaerD4\n",
+			"headerData": [
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZGZjZTllMWQ2NjU1NDFhNzgxMDIwMDQiLCJpYXQiOjE1NzY4NTcxNzcsImV4cCI6MTU3Njk0MzU3N30.n3Y91z16zrCI7AgTmPSE-CgmwAuRpEGHoACW2qaerD4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/user/5dfcf3792dc27d0880a2574c",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "9b083d90-def6-0be2-3d36-5cbe5de7fa4f",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:3000/user/5dfcf3792dc27d0880a2574c",
+			"description": "Delete user by id",
+			"descriptionFormat": "html",
+			"time": 1576913945402,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e10a3ffa-cede-1141-1ac5-a27b5f4cdb11",
+			"headers": "x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZGZjZTllMWQ2NjU1NDFhNzgxMDIwMDQiLCJpYXQiOjE1NzY4NTcxNzcsImV4cCI6MTU3Njk0MzU3N30.n3Y91z16zrCI7AgTmPSE-CgmwAuRpEGHoACW2qaerD4\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZGZjZTllMWQ2NjU1NDFhNzgxMDIwMDQiLCJpYXQiOjE1NzY4NTcxNzcsImV4cCI6MTU3Njk0MzU3N30.n3Y91z16zrCI7AgTmPSE-CgmwAuRpEGHoACW2qaerD4",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/user",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "9b083d90-def6-0be2-3d36-5cbe5de7fa4f",
+			"data": [
+				{
+					"key": "userId",
+					"value": "5dfcf3862dc27d0880a2574d",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "inayat",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "role",
+					"value": "basic",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "localhost:3000/user",
+			"description": "update user.",
+			"descriptionFormat": "html",
+			"time": 1576910840665,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f3166de3-21de-569f-eae9-591c376e8c9e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9b083d90-def6-0be2-3d36-5cbe5de7fa4f",
+			"data": [
+				{
+					"key": "email",
+					"value": "inayatDeveloper@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "localhost:3000/login",
+			"description": "login api",
+			"descriptionFormat": "html",
+			"time": 1576856433896,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

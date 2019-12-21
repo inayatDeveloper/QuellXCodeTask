@@ -1,0 +1,7 @@
+Instructions for the tasks to work..
+
+1)Need to install node and mongodb on system.
+2) npm install  commond inside directory through CMD.
+3)npm start 
+4)Import quellxCode api tasks file to postman and check apis.
+5)from my side all apis working properly attached screenshots folder for proof.
